@@ -22,3 +22,6 @@ body {
     display: block;
 }
 
+.container {
+    text-align: center;
+}
