@@ -1,9 +1,10 @@
 {% extends 'bootstrap/base.html' %}
 
-{% block head %} 
 {% block title %}
-    {% if title %}{{ title }} - Is it Iserschulz Baby Time?{% else %}Is it Iserschulz Baby Time?{% endif %}
+    {% if title %}{{ title }} - {{ _('Tunisia Today') }}{% else %}{{ _('Tunisia Today') }}{% endif %}
 {% endblock %}
+
+{% block head %} 
 
 <link rel="stylesheet" type="text/css" href="static/css/style.css">
 {% endblock %}
