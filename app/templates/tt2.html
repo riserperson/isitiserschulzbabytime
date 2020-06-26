@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block app_content %}
+<p>Welcome! We are a team of researchers and practitioners from Tunisia, the UK and the US, carrying out a study of what Tunisians like yourself value in life. We'd like to ask your views on a number of different subjects, and your input will contribute to a better understanding of what people in Tunisia believe and value. Your answers will be treated as strictly confidential. 
+</p>
+<p>
+If you agree to participate in the study, you will be invited to take part in several activities that will all be carried out online.  We expect that you will spend in total no more than 1h to take part in our study. If you complete all elements in the study we will compensate you for your time and effort, and enter your name in a raffle at the end to win one of our attractive prizes:
+</p>
+<ul>
+    <li>1 of 1 HUAWEI MediaPad M5 8.4"</li>
+    <li>1 of 2 Samsung Galaxy J2 smartphones</li>
+    <li>1 of 10 annual Netflix subscriptions</li>
+<p>
+A first survey today should not take more than 5 min. Your participation in this research is voluntary. You have the right to withdraw at any point during the study for any reason., and without any prejudice. If you would like to discuss this research, please e-mail ____ or click "About" above to learn more.
+</p>
+
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+    <div class="col-md-4">
+        <form action="" method="post" novalidate>
+            <div class="form-group">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.age.label }}<br>
+        {{ form.age() }}
+        {% for error in form.age.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.gender.label }}<br>
+        {{ form.gender() }}
+        {% for error in form.gender.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.ed.label }}<br>
+        {{ form.ed() }}
+        {% for error in form.ed.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.loc.label }}<br>
+        {{ form.loc() }}<br>
+        {% for error in form.loc.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.employed.label }}<br>
+        {{ form.employed() }}
+        {% for error in form.employed.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.religious.label }}<br>
+        {{ form.religious() }}
+        {% for error in form.religious.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.finance.label }}<br>
+        {{ form.finance() }}
+        {% for error in form.finance.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.reg.label }}<br>
+        {{ form.reg() }}
+        {% for error in form.reg.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.economicsit.label }}<br>
+        {{ form.economicsit() }}
+        {% for error in form.economicsit.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.consent_given() }}
+        {{ form.consent_given.label }}<br>
+        {% for error in form.consent_given.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.submit(size='lg') }}</p>
+</form> 
+
+{% endblock %}

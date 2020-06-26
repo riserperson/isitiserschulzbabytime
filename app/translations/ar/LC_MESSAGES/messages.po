@@ -1,0 +1,329 @@
+# Arabic translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-05-18 13:54-0400\n"
+"PO-Revision-Date: 2019-05-22 10:24-0400\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: app/forms.py:9
+msgid "I Agree"
+msgstr "أنا موافق"
+
+#: app/forms.py:13
+msgid "What is your age?"
+msgstr "ماهو عمرك؟"
+
+#: app/forms.py:14
+msgid "Are you a Tunisian Citizen?"
+msgstr "هل انت مواطن تونسي"
+
+#: app/forms.py:14 app/forms.py:48
+msgid "Yes"
+msgstr "نعم "
+
+#: app/forms.py:14 app/forms.py:48
+msgid "No"
+msgstr "لا"
+
+#: app/forms.py:15
+msgid "What is your gender?"
+msgstr "ما هو جنسك؟"
+
+#: app/forms.py:15
+msgid "Female"
+msgstr "نساء"
+
+#: app/forms.py:15
+msgid "Male"
+msgstr "رجال"
+
+#: app/forms.py:18
+msgid "What is your highest education qualification?"
+msgstr "ماهو أعلى مستوى تعليميّ تحصّلت عليه أو أنّك  بصدد اتمامه ؟ "
+
+#: app/forms.py:18
+msgid "No education"
+msgstr " لم أنتفع بتعليم رسميّ "
+
+#: app/forms.py:18
+msgid "Elementary"
+msgstr " تعليم ابتدائيّ "
+
+#: app/forms.py:18
+msgid "Preparatory/Basic"
+msgstr "تعليم أساسيّ "
+
+#: app/forms.py:18
+msgid "Secondary"
+msgstr " تعليم ثانويّ"
+
+#: app/forms.py:18
+msgid "BA"
+msgstr "حاصل(ة)  على الاجازة   "
+
+#: app/forms.py:18
+msgid "MA"
+msgstr "حاصل(ة) على شهادة الماجستير أو أكثر "
+
+#: app/forms.py:18
+msgid "Decline to answer"
+msgstr "أمتنع عن الإجابة "
+
+#: app/forms.py:47
+msgid ""
+"Please select the governorate you live in (note the survey is only for those "
+"currently living in Tunisia)"
+msgstr ""
+"يرجى اختيار الولاية التي تعيش فيها (ملاحظة : أن  هذا الاستبيان مخصص فقط "
+"لأولئك الذين يعيشون حالياً في تونس)"
+
+#: app/forms.py:48
+msgid "Are you registered to take part in the upcoming national elections?"
+msgstr "هل قمت بالتّسجيل للمشاركة في الانتخابات القادمة ؟       "
+
+#: app/forms.py:48
+msgid "I am not sure"
+msgstr "غير متأكّد "
+
+#: app/forms.py:49
+msgid ""
+"Please provide a mobile number so that we can send you the details of our "
+"study, enter you in the prize raffle, and notify you when you win."
+msgstr ""
+"يرجى توفير رقم هاتف محمول حتى نتمكن من إرسال تفاصيل الاستبيان إليك ، وإدخالك "
+"في السحب على الجائزة ، وإخبارك عند الفوز."
+
+#: app/forms.py:52
+msgid "Name"
+msgstr "الإسم"
+
+#: app/forms.py:53
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: app/forms.py:54
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: app/templates/about.html:10
+msgid "About Tunisia Today"
+msgstr "خول تونس اليوم"
+
+#: app/templates/about.html:12
+msgid ""
+"We are a team of researchers and practitioners from Tunisia, the UK and the "
+"US. We are studying what Tunisians value in life."
+msgstr ""
+"نحن فريق من الباحثين و الممارسين للمهنة من تونس والمملكة المتحدة والولايات "
+"المتحدة ونقوم باستبيان حول مايوليه التونسيون قيمة في الحياة"
+
+#: app/templates/about.html:14
+msgid "Participants in this study will complete four activities:"
+msgstr "المشاركون في هذه الدراسة سيكملون أربعة أنشطة:"
+
+#: app/templates/about.html:18
+msgid "Take a preliminary survey"
+msgstr "1. قم بأخذ استبيان أولي"
+
+#: app/templates/about.html:20
+msgid "Watch three, three minute videos"
+msgstr "1. قم بمشاهدة ثلاثة  فديوهات مدة الشريط الواحد، ثلاثة دقائق "
+
+#: app/templates/about.html:22
+msgid "Write a short essay (500 words)"
+msgstr "1. قم بكتابة مقال قصير (500 كلمة)"
+
+#: app/templates/about.html:24
+msgid "Take a follow up survey"
+msgstr "1. قم بمتابعة الاستبيان"
+
+#: app/templates/about.html:28
+msgid ""
+"Participants will complete the first three activities will be completed "
+"today. This will take between 30 and 45 minutes of your time. The follow-up "
+"survey will be sent to you by email or text message     between one and three "
+"weeks later. It will take between 10 and 15 minutes to complete."
+msgstr ""
+"سوف ينتهي المشاركون اليوم من الأنشطة الثلاثة الأولى. و ستأخذ هذه الانشطة من "
+"30 الى 45 دقيقة من وقتك. بخصوص المتابعة ،سيتم ارسالها إليك عبر البريد "
+"الإلكتروني أو الرسالة النصية في فترة تقدر بين أسبوع وثلاثة أسابيع. و سيستغرق "
+"استكمالها ما بين 10 و 15 دقيقة."
+
+#: app/templates/about.html:31
+msgid ""
+"Your participation is very helpful and we value your answers and your time. "
+"To say “thanks,” we automatically enter everyone who completes all four "
+"activities into a lottery to win one of 10 Netflix subscriptions."
+msgstr ""
+"مشاركتك مفيدة للغاية ووقتك يستحق العناء.حتى نتشكرك على المشاركة ، سندخل "
+"بطريقة مباشرة كل شحص يكمل   الأنشطة الأربعة في اليانصيب للفوز ب10 اشتراكات في "
+"Netflix."
+
+#: app/templates/about.html:34
+msgid ""
+"Participation in this study is capped at 10,000 people. This means that you "
+"have a 1 in 1,000 odds of winning a Netflix subscription. The odds get even "
+"better if some people drop out or don’t complete all four activities."
+msgstr ""
+"المشاركة في هذه الدراسة تتوج 10000 شخص.  يعني أنه هناك فرصةمن بين كل 1000 "
+"للفوز باشتراك Netflix. تصبح الاحتمالات أفضل إذا توقف البعض أو لم يكملوا جميع "
+"الأنشطة الأربعة"
+
+#: app/templates/about.html:37
+msgid "If you would like to discuss this research, please e-mail"
+msgstr "إذا كنت ترغب في مناقشة هذا البحث، فيرجى الإرسال على البريد الإلكتروني "
+
+#: app/templates/about.html:37 app/templates/index.html:32
+msgid " or click \"About\" above to learn more."
+msgstr "أو النقر اعلاه على \"حول\" لمعرفة المزيد"
+
+#: app/templates/base.html:4 app/templates/base.html:27
+msgid "Tunisia Today"
+msgstr "تونس اليوم"
+
+#: app/templates/base.html:31
+msgid "Home"
+msgstr "استقبال"
+
+#: app/templates/base.html:32
+msgid "About"
+msgstr "حول"
+
+#: app/templates/disqualified_a.html:4
+msgid ""
+"Thank you for your interest in our study. For the moment, this project is "
+"only for citizens who are between 18 and 35 years old. If you wish to be "
+"included in future research studies, please enter your name and email address "
+"below."
+msgstr ""
+"شكرا لاهتمامك بدراستنا ، يتوجّه هذا المشروع للمواطنين التّونسيّين الذين لا "
+"تتجاوز سنّهم 35 سنة  ، سنقوم بالاحتفاظ ببياناتك في قائمة المشاركين في دراسات  "
+"بحثيّة قادمة.هل ترغب بإدراج اسمك بقائمتنا  "
+
+#: app/templates/disqualified_c.html:4
+msgid ""
+"Thank you for your interest in our study. For the moment, this project is "
+"only for Tunisian citizens. If you wish to be included in future research "
+"studies please enter your name and email address below."
+msgstr ""
+"شكرا  لاهتمامك بالدّراسة ، يتوجّه هذا المشروع حاليّا  للمواطنين التّونسيّين فقط ، "
+"سنقوم بالاحتفاظ ببياناتك في قائمة المشاركين في دراسات  بحثيّة قادمة .  فهل "
+"ترغب بإدراج اسمك بقائمتنا ؟ "
+
+#: app/templates/index.html:4 app/templates/index.html:13
+msgid "Welcome"
+msgstr "مرحبا بكم في بوّابة الدّراسة التي نعمل عليها و عنوانها \"تونس اليوم\" ."
+
+#: app/templates/index.html:14
+msgid ""
+"We are a team of researchers and practitioners from Tunisia, the UK and the "
+"US, carrying out a study of what Tunisians like yourself value in life. We'd "
+"like to ask your views on a number of different subjects, and your input will "
+"contribute to a better understanding of what people in Tunisia believe and "
+"value. Your answers will be treated as strictly confidential."
+msgstr ""
+"نحن فريق من الباحثين و الممارسين للمهنة من تونس والمملكة المتحدة والولايات "
+"المتحدة ونقوم باستبيان حول مايقدره  التونسيون من بني وطنك او ما يولونه قيمة "
+"في الحياة. نود أن نضطلع على وجهات نظركم حول عدد من المواضيع المختلفة ، وسوف "
+"تسهم مداخلاتكم في فهم أفضل لما يعتقده الناس في تونس ويولونه قيمة. سيتم "
+"التعامل مع إجاباتك بسرية تامة"
+
+#: app/templates/index.html:17
+msgid ""
+"If you agree to participate in the study, you will be invited to take part in "
+"several activities that will all be carried out online."
+msgstr ""
+"اذا وافقت على المشاركة في الاستبيان فستتم دعوتك للمشاركة في العديد من الأنشطة "
+"التي سيتم تنفيذها عبر الإنترنت"
+
+#: app/templates/index.html:20
+msgid "We expect that you will spend "
+msgstr "نتوقع أن تستغرق المشاركة في الاستبيان"
+
+#: app/templates/index.html:20
+msgid "in total no more than 1 hour"
+msgstr "ساعة في المجمل كأقصى تقدير "
+
+#: app/templates/index.html:20
+msgid " to take part in our study."
+msgstr "في حال قررت المشاركة في هذا الاستبيان "
+
+#: app/templates/index.html:23
+msgid "The first part of the study today should not take more than 30 min."
+msgstr "لا ينبغي أن يستغرق الجزء الأول من الاستبيان اليوم أكثر من 30 دقيقة"
+
+#: app/templates/index.html:26
+msgid ""
+"If you complete all elements in the study we will enter your name in a raffle "
+"to win a free, one year subscription to Netflix."
+msgstr ""
+"إذا قمت بإكمال جميع العناصر في الاستبيان فسنقوم بإدخال اسمك في السحب للفوز "
+"باشتراك مجاني لمدة سنة  في نيتفليكس "
+
+#: app/templates/index.html:29
+msgid ""
+"Your participation in this research is voluntary. If you decide to "
+"participate, you still have the right to withdraw at any point during the "
+"study for any reason. Your information is anonymous and confidential."
+msgstr ""
+"في حال قررت المشاركة في هذا الاستبيان ، فستكون مشاركتك تطوعية،كما انه لا يزال "
+"لديك الحق في الانسحاب في أي وقت أثناء الاستبيان لأي سبب من الأسباب. معلوماتك "
+"مجهولة وسرية"
+
+#: app/templates/index.html:32
+msgid "If you would like to discuss this research, please e-mail "
+msgstr "إذا كنت ترغب في مناقشة هذا البحث، فيرجى الإرسال على البريد الإلكتروني "
+
+#: app/templates/index.html:35
+msgid ""
+"I have read and I understand the information above. I understand that my "
+"participation is voluntary and that I am free to withdraw at any time, "
+"without giving a reason. I understand that any information I provide during "
+"this study is anonymous and confidential and will be used for research "
+"purposes only. I understand that my contact information will be used solely "
+"for communication about this study and to enter me into a raffle to win a "
+"free subscription to Netflix."
+msgstr ""
+"لقد قرأت وفهمت المعلومات الواردة أعلاه. أدرك أن مشاركتي طوعية وأنني حر في "
+"الانسحاب في أي وقت دون إبداء سبب الانسحاب . أدرك أن أي معلومات أوردها خلال "
+"هذا الاستبيان هي معلومات مجهولة وسرية وسيتم استخدامها لأغراض البحث فقط. أدرك "
+"أن معلومات الاتصال الخاصة بي سيتم استخدامها فقط للتواصل بشأن هذا الاستبيان "
+"ولإدخالي في السحب للفوز بالاشتراك المجاني في نيتفليكس."
+
+#: app/templates/index.html:43 app/templates/index2.html:21
+msgid "Proceed"
+msgstr "اقبل"
+
+#: app/templates/index2.html:4
+msgid "Page 2 of 3"
+msgstr "صفحة 2 من 3"
+
+#: app/templates/index3.html:4
+msgid "Page 3 of 3"
+msgstr "صفحة 3من 3"
+
+#: app/templates/index3.html:23
+msgid "Proceed to the Tunisia Today Study"
+msgstr "قم بالانتقال إلى \" الاستبيان حول تونس اليوم\" "
+
+#: app/templates/index3.html:24
+msgid "You will be redirected immediately to the study"
+msgstr "سيتم إعادة توجيهك فورًا إلى الاستبيان"
+
+#~ msgid "What year were you born in?"
+#~ msgstr "في اي سنة ولدت؟"

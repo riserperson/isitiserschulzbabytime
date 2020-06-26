@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PROJECT VERSION</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px -apple-system, "HelveticaNeue", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: rgb(90, 228, 140); height: 10px; }
+.percent-fuzzy   { background-color: rgb(255, 167, 52); height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: left;
+  max-width: 90%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+tr.comments td { padding-top: 0; }
+
+.fuzzy .tra {
+  color: rgb(218, 123, 0);
+}
+
+.msgctxt {
+  color: rgb(70, 109, 137);
+  font-size: smaller;
+  background-color: rgb(217, 232, 242);
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin-right: 4px;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Project:</td><td>PROJECT VERSION</td></tr>
+<tr><td>Language:</td><td>French</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 78.4615%'>&nbsp;</div>
+    <div class='percent-untrans' style='width: 21.5385%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Translated: 51 of 65 (78 %)  •  Remaining: 14  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Source text — English</th>
+      <th>Translation — French</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Preferred language</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Arabic</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+French</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+English</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Are you between 18-35 years old?</td>
+<td class='tra'  lang='fr'>
+Avez-vous entre 18 et 35 ans?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Yes</td>
+<td class='tra'  lang='fr'>
+Oui</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+No</td>
+<td class='tra'  lang='fr'>
+Non</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Do you agree to participate in the study?</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+What is your age?</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Are you a Tunisian Citizen?</td>
+<td class='tra'  lang='fr'>
+Êtes-vous un citoyen tunisien?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+What is your gender?</td>
+<td class='tra'  lang='fr'>
+Quel est votre sexe?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Female</td>
+<td class='tra'  lang='fr'>
+Femelle</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Male</td>
+<td class='tra'  lang='fr'>
+Mâle</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+What is your highest education qualification?</td>
+<td class='tra'  lang='fr'>
+Que est votre plus haut diplôme ?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+No education</td>
+<td class='tra'  lang='fr'>
+Pas de diplôme</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Elementary</td>
+<td class='tra'  lang='fr'>
+Enseignement primaire</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Preparatory/Basic</td>
+<td class='tra'  lang='fr'>
+Collège</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Secondary</td>
+<td class='tra'  lang='fr'>
+Lycée</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BA</td>
+<td class='tra'  lang='fr'>
+Baccalauréat</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+MA</td>
+<td class='tra'  lang='fr'>
+Licence</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Decline to answer</td>
+<td class='tra'  lang='fr'>
+Ne pas répondre</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Please select the governorate you live in (note the survey is only for those currently living in Tunisia)</td>
+<td class='tra'  lang='fr'>
+Veuillez sélectionner le gouvernorat dans lequel vous vivez (notez que l'enquête s'adresse uniquement à ceux qui vivent actuellement en Tunisie)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Are you registered to take part in the upcoming national elections?</td>
+<td class='tra'  lang='fr'>
+Etes-vous inscrit(e) afin de participer aux prochainnes élections ?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+I am not sure</td>
+<td class='tra'  lang='fr'>
+Je ne suis pas sûr(e)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Please provide a mobile number so that we can send you the details of our study, enter you in the prize raffle, and notify you when you win.</td>
+<td class='tra'  lang='fr'>
+Veuillez fournir un numéro de téléphone portable afin que nous puissions vous envoyer les détails de notre étude, vous inscrire au tirage au sort et vous notifier lorsque vous gagnez.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Name</td>
+<td class='tra'  lang='fr'>
+Nom</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Email Address</td>
+<td class='tra'  lang='fr'>
+Adresse Email</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Phone Number</td>
+<td class='tra'  lang='fr'>
+Numéro de téléphone</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+About Tunisia Today</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+We are a team of researchers and practitioners from Tunisia, the UK and the US. We are studying what Tunisians value in life.</td>
+<td class='tra'  lang='fr'>
+Nous sommes une équipe de chercheurs et de spécialistes tunisiens, britanniques et américains. Nous étudions ce que les Tunisiens valorisent dans la vie.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Participants in this study will complete four activities:</td>
+<td class='tra'  lang='fr'>
+Les participants à cette étude réaliseront quatre activités:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Take a preliminary survey</td>
+<td class='tra'  lang='fr'>
+Prendre une enquête préliminaire</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Watch three, three minute videos</td>
+<td class='tra'  lang='fr'>
+Regardez trois vidéos de trois minutes</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Write a short essay (500 words)</td>
+<td class='tra'  lang='fr'>
+Rédigez un court texte (500 mots)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Take a follow up survey</td>
+<td class='tra'  lang='fr'>
+Participer à une enquête de suivi</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Participants will complete the first three activities will be completed today. This will take between 30 and 45 minutes of your time. The follow-up survey will be sent to you by email or text message     between one and three weeks later. It will take between 10 and 15 minutes to complete.</td>
+<td class='tra'  lang='fr'>
+Les participants termineront les trois premières activités qui seront complétées aujourd'hui. Cela prendra entre 30 et 45 minutes de votre temps. Le suivi vous sera envoyé par courrier électronique ou SMS entre une et trois semaines plus tard. Cela prendra entre 10 et 15 minutes à compléter.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your participation is very helpful and we value your answers and your time. To say “thanks,” we automatically enter everyone who completes all four activities into a lottery to win one of 10 Netflix subscriptions.</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Participation in this study is capped at 10,000 people. This means that you have a 1 in 1,000 odds of winning a Netflix subscription. The odds get even better if some people drop out or don’t complete all four activities.</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you would like to discuss this research, please e-mail</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ or click "About" above to learn more.</td>
+<td class='tra'  lang='fr'>
+ ou cliquez sur "À propos" ci-dessus pour en savoir plus.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Proceed</td>
+<td class='tra'  lang='fr'>
+Procéder</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Tunisia Today</td>
+<td class='tra'  lang='fr'>
+Tunisie d'aujourd'hui</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+About</td>
+<td class='tra'  lang='fr'>
+A propos</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Thank you for your interest in our study. For the moment, this project is only for citizens who are between 18 and 35 years old. If you wish to be included in future research studies, please enter your name and email address below.</td>
+<td class='tra'  lang='fr'>
+Merci de votre intérêt pour cette étude. Pour le moment, cette enquête s'adresse uniquement aux citoyens dont l'âge est compris entre 18 et 35 ans. Si vous souhaitez être inclus dans de futures recherches, merci de bien vouloir partager vos noms et adresse email dans l'espace ci-dessous.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Welcome</td>
+<td class='tra'  lang='fr'>
+Bienvenue</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Welcome to this study! We are conducting a survey in Tunisia about current affairs.  This survey is for research purposes and is not related to any political party or activity. The goal is to learn about the general characteristics of Tunisian young people between 18-35 years old.</td>
+<td class='tra'  lang='fr'>
+Bienvenue dans cette étude ! Nous menons une étude en Tunisie quant à la situation générale du pays. Cette étude est à vocation de recherche et n’est en rien liée à un parti ou une activité politique. Le but est de mieux comprendre les caractéristiques générales des Jeunes Tunisiens, dont l’âge est compris entre 18 et 35 ans.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+If you agree to participate in this study, we would like to ask you a few questions about you. We anticipate that this will take approximately 5 minutes of your time.</td>
+<td class='tra'  lang='fr'>
+Si vous acceptez de participer à cette étude, nous aimerions vous poser quelques questions personnelles. Nous considérons que cela prendra environ 5 minutes de votre temps.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Confidentiality:</td>
+<td class='tra'  lang='fr'>
+Confidentialité:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Your answers are completely confidential and your name and other personal information will be anonymized before they are shared with the research team. The data will be analyzed to understand the overall characteristics of young people using Facebook and Instagram in Tunisia.</td>
+<td class='tra'  lang='fr'>
+Vos réponses sont entièrement confidentielles et votre nom ou d’autres données personnelles seront codées et rendues anonymes avant d’être partagées avec l’équipe de recherche. Les données collectées seront analysées afin de mieux comprendre les comportements des jeunes tunisiens dans leur usage de Facebook et Instagram.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Participant's rights:</td>
+<td class='tra'  lang='fr'>
+Droits du participant:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Your participation is voluntary and you have the right to change your mind and end the interview at any time without any penalty. You can also decide from the outset not to participate in the survey.</td>
+<td class='tra'  lang='fr'>
+Votre participation est volontaire et vous avez le droit de changer d’avis et mettre un terme à l’enquête à n’importe quel moment et sans conséquence. Vous pouvez bien entendu décider dès le début de ne pas participer à cette étude.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Risks and Benefits:</td>
+<td class='tra'  lang='fr'>
+Risques et avantages:</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+There are no risks associated with participation in this study. You will receive no direct benefit from participation. However, we expect our results will help to better understand the general characteristics of young people.</td>
+<td class='tra'  lang='fr'>
+Participer à cette étude ne vous fait encourir aucun risque. Vous ne retirerez pas non plus de bénéfice direct à participer à cette étude. Cependant, nous espérons que nos résultats permettront de mieux comprendre la problématique des Jeunes en Tunisie.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Time Involvement:</td>
+<td class='tra'  lang='fr'>
+Temps de participation:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your participation will take approximately </td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+5 minutes</td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Questions:</td>
+<td class='tra'  lang='fr'>
+Questions:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you have any questions, concerns or complaints about this survey, please contact Aaron Abbarno, Director of Research, Evidence, and Data, at </td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+You can also contact the research team at </td>
+<td class='tra'  lang='fr'>
+Vous pouvez également contacter l’équipe de recherche via </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Independent contact:</td>
+<td class='tra'  lang='fr'>
+Contact indépendant:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you are not satisfied with the way this survey was conducted, or if you have any questions, complaints or general questions about the research or your rights as a participant, please contact David Kernohan from the Business School, School Ethics Committee of Middlesex University in order to speak to someone independent of the research team, at </td>
+<td class='tra'  lang='fr'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Page 2 of 3</td>
+<td class='tra'  lang='fr'>
+Page 2 sur 3</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Page 3 of 3</td>
+<td class='tra'  lang='fr'>
+Page 3 sur 3</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Proceed to the Tunisia Today Study</td>
+<td class='tra'  lang='fr'>
+Procédez à l'enquête la Tunisie d’aujourd’hui</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+You will be redirected immediately to the study</td>
+<td class='tra'  lang='fr'>
+Vous serez immédiatement redirigé vers l'enquête</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,462 @@
+# French translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-07-16 14:29-0400\n"
+"PO-Revision-Date: 2019-07-22 13:32-0400\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: app/forms.py:9
+msgid "Preferred language"
+msgstr "Langage préféré"
+
+#: app/forms.py:9
+msgid "Arabic"
+msgstr "Arabe"
+
+#: app/forms.py:9
+msgid "French"
+msgstr "Français"
+
+#: app/forms.py:9
+msgid "English"
+msgstr "Anglais"
+
+#: app/forms.py:10
+msgid "Are you between 18-35 years old?"
+msgstr "Avez-vous entre 18 et 35 ans?"
+
+#: app/forms.py:10 app/forms.py:11 app/forms.py:16 app/forms.py:50
+msgid "Yes"
+msgstr "Oui"
+
+#: app/forms.py:10 app/forms.py:11 app/forms.py:16 app/forms.py:50
+msgid "No"
+msgstr "Non"
+
+#: app/forms.py:11
+msgid "Do you agree to participate in the study?"
+msgstr "Acceptez-vous de participer à cette étude?"
+
+#: app/forms.py:15
+msgid "What is your age?"
+msgstr "Quel est votre âge?"
+
+#: app/forms.py:16
+msgid "Are you a Tunisian Citizen?"
+msgstr "Êtes-vous un citoyen tunisien?"
+
+#: app/forms.py:17
+msgid "What is your gender?"
+msgstr "Quel est votre sexe?"
+
+#: app/forms.py:17
+msgid "Female"
+msgstr "Femme"
+
+#: app/forms.py:17
+msgid "Male"
+msgstr "Homme"
+
+#: app/forms.py:20
+msgid "What is your highest education qualification?"
+msgstr "Que est votre plus haut diplôme ?"
+
+#: app/forms.py:20
+msgid "No education"
+msgstr "Pas de diplôme"
+
+#: app/forms.py:20
+msgid "Elementary"
+msgstr "Enseignement primaire"
+
+#: app/forms.py:20
+msgid "Preparatory/Basic"
+msgstr "Collège"
+
+#: app/forms.py:20
+msgid "Secondary"
+msgstr "Lycée"
+
+#: app/forms.py:20
+msgid "BA"
+msgstr "Baccalauréat"
+
+#: app/forms.py:20
+msgid "MA"
+msgstr "Licence & plus"
+
+#: app/forms.py:20
+msgid "Decline to answer"
+msgstr "Ne pas répondre"
+
+#: app/forms.py:49
+msgid "Please select the governorate you live in (note the survey is only for those currently living in Tunisia)"
+msgstr "Veuillez sélectionner le gouvernorat dans lequel vous vivez (notez que l'enquête s'adresse uniquement à ceux qui vivent actuellement en Tunisie)"
+
+#: app/forms.py:50
+msgid "Are you registered to take part in the upcoming national elections?"
+msgstr "Etes-vous inscrit(e) afin de participer aux prochainnes élections ?"
+
+#: app/forms.py:50
+msgid "I am not sure"
+msgstr "Je ne suis pas sûr(e)"
+
+#: app/forms.py:51
+msgid "Please provide a mobile number so that we can send you the details of our study, enter you in the prize raffle, and notify you when you win."
+msgstr "Veuillez fournir un numéro de téléphone portable afin que nous puissions vous envoyer les détails de notre étude, vous inscrire au tirage au sort et vous notifier lorsque vous gagnez."
+
+#: app/forms.py:54
+msgid "Name"
+msgstr "Nom"
+
+#: app/forms.py:55
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: app/forms.py:56
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: app/templates/about.html:14
+msgid "About Tunisia Today"
+msgstr "Au sujet de Tunisie aujourd’hui"
+
+#: app/templates/about.html:16
+msgid "We are a team of researchers and practitioners from Tunisia, the UK and the US. We are studying what Tunisians value in life."
+msgstr "Nous sommes une équipe de chercheurs et de spécialistes tunisiens, britanniques et américains. Nous étudions ce que les Tunisiens valorisent dans la vie."
+
+#: app/templates/about.html:18
+msgid "Participants in this study will complete four activities:"
+msgstr "Les participants à cette étude réaliseront quatre activités:"
+
+#: app/templates/about.html:22
+msgid "Take a preliminary survey"
+msgstr "Prendre une enquête préliminaire"
+
+#: app/templates/about.html:24
+msgid "Watch three, three minute videos"
+msgstr "Regardez trois vidéos de trois minutes"
+
+#: app/templates/about.html:26
+msgid "Write a short essay (500 words)"
+msgstr "Rédigez un court texte (500 mots)"
+
+#: app/templates/about.html:28
+msgid "Take a follow up survey"
+msgstr "Participer à une enquête de suivi"
+
+#: app/templates/about.html:32
+msgid "Participants will complete the first three activities will be completed today. This will take between 30 and 45 minutes of your time. The follow-up survey will be sent to you by email or text message     between one and three weeks later. It will take between 10 and 15 minutes to complete."
+msgstr "Les participants termineront les trois premières activités qui seront complétées aujourd'hui. Cela prendra entre 30 et 45 minutes de votre temps. Le suivi vous sera envoyé par courrier électronique ou SMS entre une et trois semaines plus tard. Cela prendra entre 10 et 15 minutes à compléter."
+
+#: app/templates/about.html:35
+msgid "Your participation is very helpful and we value your answers and your time. To say “thanks,” we automatically enter everyone who completes all four activities into a lottery to win one of 10 Netflix subscriptions."
+msgstr "Votre participation nous est très utile et nous vous remercions pour vos réponses et votre temps. Afin de vous remercier, nous sélectionnons tous les participants ayant rempli les 4 étapes de l’étude dans un tirage au sort en vue de gagner l’un des 10 abonnements Netflix."
+
+#: app/templates/about.html:38
+msgid "Participation in this study is capped at 10,000 people. This means that you have a 1 in 1,000 odds of winning a Netflix subscription. The odds get even better if some people drop out or don’t complete all four activities."
+msgstr "La participation à cette étude est plafonnée à 10 000 personnes. Cela signifie que vous avez une chance sur 1000 de gagner un abonnement Netflix. Par ailleurs, les chances de gagner augmentent quand certaines personnes renoncent à achever l’étude dans son intégralité."
+
+#: app/templates/about.html:41
+msgid "If you would like to discuss this research, please e-mail"
+msgstr "Si vous souhaitez discuter au sujet de cette étude, merci d’écrire à"
+
+#: app/templates/about.html:41
+msgid " or click \"About\" above to learn more."
+msgstr " ou cliquez sur \"À propos\" ci-dessus pour en savoir plus."
+
+#: app/templates/admin_login.html:15 app/templates/index.html:59
+#: app/templates/index2.html:30
+msgid "Proceed"
+msgstr "Procéder"
+
+#: app/templates/base.html:4 app/templates/base.html:27
+msgid "Tunisia Today"
+msgstr "Tunisie d'aujourd'hui"
+
+#: app/templates/base.html:31
+msgid "About"
+msgstr "A propos"
+
+#: app/templates/disqualified.html:4
+msgid "Thank you for your interest in our study. For the moment, this project is only for citizens who are between 18 and 35 years old. If you wish to be included in future research studies, please enter your name and email address below."
+msgstr "Merci de votre intérêt pour cette étude. Pour le moment, cette enquête s'adresse uniquement aux citoyens dont l'âge est compris entre 18 et 35 ans. Si vous souhaitez être inclus dans de futures recherches, merci de bien vouloir partager vos noms et adresse email dans l'espace ci-dessous."
+
+#: app/templates/index.html:4 app/templates/index.html:17
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: app/templates/index.html:18
+msgid "Welcome to this study! We are conducting a survey in Tunisia about current affairs.  This survey is for research purposes and is not related to any political party or activity. The goal is to learn about the general characteristics of Tunisian young people between 18-35 years old."
+msgstr "Bienvenue dans cette étude ! Nous menons une étude en Tunisie quant à la situation générale du pays. Cette étude est à vocation de recherche et n’est en rien liée à un parti ou une activité politique. Le but est de mieux comprendre les caractéristiques générales des Jeunes Tunisiens, dont l’âge est compris entre 18 et 35 ans."
+
+#: app/templates/index.html:26
+msgid "If you agree to participate in this study, we would like to ask you a few questions about you. We anticipate that this will take approximately 5 minutes of your time."
+msgstr "Si vous acceptez de participer à cette étude, nous aimerions vous poser quelques questions personnelles. Nous considérons que cela prendra environ 5 minutes de votre temps."
+
+#: app/templates/index.html:29
+msgid "Confidentiality:"
+msgstr "Confidentialité:"
+
+#: app/templates/index.html:29
+msgid "Your answers are completely confidential and your name and other personal information will be anonymized before they are shared with the research team. The data will be analyzed to understand the overall characteristics of young people using Facebook and Instagram in Tunisia."
+msgstr "Vos réponses sont entièrement confidentielles et votre nom ou d’autres données personnelles seront codées et rendues anonymes avant d’être partagées avec l’équipe de recherche. Les données collectées seront analysées afin de mieux comprendre les comportements des jeunes tunisiens dans leur usage de Facebook et Instagram."
+
+#: app/templates/index.html:32
+msgid "Participant's rights:"
+msgstr "Droits du participant:"
+
+#: app/templates/index.html:32
+msgid "Your participation is voluntary and you have the right to change your mind and end the interview at any time without any penalty. You can also decide from the outset not to participate in the survey."
+msgstr "Votre participation est volontaire et vous avez le droit de changer d’avis et mettre un terme à l’enquête à n’importe quel moment et sans conséquence. Vous pouvez bien entendu décider dès le début de ne pas participer à cette étude."
+
+#: app/templates/index.html:35
+msgid "Risks and Benefits:"
+msgstr "Risques et avantages:"
+
+#: app/templates/index.html:35
+msgid "There are no risks associated with participation in this study. You will receive no direct benefit from participation. However, we expect our results will help to better understand the general characteristics of young people."
+msgstr "Participer à cette étude ne vous fait encourir aucun risque. Vous ne retirerez pas non plus de bénéfice direct à participer à cette étude. Cependant, nous espérons que nos résultats permettront de mieux comprendre la problématique des Jeunes en Tunisie."
+
+#: app/templates/index.html:38
+msgid "Time Involvement:"
+msgstr "Temps de participation:"
+
+#: app/templates/index.html:38
+msgid "Your participation will take approximately "
+msgstr "Votre participation requiert approximativement"
+
+#: app/templates/index.html:38
+msgid "5 minutes"
+msgstr "5 minutes"
+
+#: app/templates/index.html:41
+msgid "Questions:"
+msgstr "Questions:"
+
+#: app/templates/index.html:41
+msgid "If you have any questions, concerns or complaints about this survey, please contact Aaron Abbarno, Director of Research, Evidence, and Data, at "
+msgstr "Si vous avez des questions, doutes ou critiques relatives à cette étude, merci de bien vouloir contacter Aaron Abbarno, Directeur du département Recherches et Data, via"
+
+#: app/templates/index.html:41
+msgid "You can also contact the research team at "
+msgstr "Vous pouvez également contacter l’équipe de recherche via "
+
+#: app/templates/index.html:44
+msgid "Independent contact:"
+msgstr "Contact indépendant:"
+
+#: app/templates/index.html:44
+msgid "If you are not satisfied with the way this survey was conducted, or if you have any questions, complaints or general questions about the research or your rights as a participant, please contact David Kernohan from the Business School, School Ethics Committee of Middlesex University in order to speak to someone independent of the research team, at "
+msgstr "Si vous n’êtes pas satisfaits de la manière dont a été conduite cette étude, ou si vous avez des questions, critiques ou remarques au sujet de cette étude ou de vos droits en tant que participant, merci de bien vouloir contacter David Kernohan, membre de la Business School et du comité d’éthique de l’Université de Middlesex, afin de discuter avec un représentant qui soit indépendant de cette étude, via"
+
+#: app/templates/index2.html:4
+msgid "Page 2 of 3"
+msgstr "Page 2 sur 3"
+
+#: app/templates/index3.html:4
+msgid "Page 3 of 3"
+msgstr "Page 3 sur 3"
+
+#: app/templates/index3.html:35
+msgid "Proceed to the Tunisia Today Study"
+msgstr "Procédez à l'enquête la Tunisie d’aujourd’hui"
+
+#: app/templates/index3.html:36
+msgid "You will be redirected immediately to the study"
+msgstr "Vous serez immédiatement redirigé vers l'enquête"
+
+#~ msgid "Tunisia Today"
+#~ msgstr "Tunisie aujourd'hui"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "About"
+#~ msgstr "A propos"
+
+#~ msgid "What year were you born in?"
+#~ msgstr "En quelle année êtes-vous né?"
+
+#~ msgid "I Agree"
+#~ msgstr "Je suis d'accord"
+
+#~ msgid ""
+#~ "Thank you for your interest in our"
+#~ " study. For the moment, this project"
+#~ " is only for Tunisian citizens. If"
+#~ " you wish to be included in "
+#~ "future research studies please enter "
+#~ "your name and email address below."
+#~ msgstr ""
+#~ "Merci de votre intérêt pour cette "
+#~ "étude. Pour le moment, cette enquête "
+#~ "s'adresse uniquement aux citoyens tunisiens."
+#~ " Si vous souhaitez être inclus dans"
+#~ " de futures recherches, merci de bien"
+#~ " vouloir partager vos noms et adresse"
+#~ " email dans l'espace ci-dessous."
+
+#~ msgid ""
+#~ "We are a team of researchers and"
+#~ " practitioners from Tunisia, the UK "
+#~ "and the US, carrying out a study"
+#~ " of what Tunisians like yourself "
+#~ "value in life. We'd like to ask"
+#~ " your views on a number of "
+#~ "different subjects, and your input will"
+#~ " contribute to a better understanding "
+#~ "of what people in Tunisia believe "
+#~ "and value. Your answers will be "
+#~ "treated as strictly confidential."
+#~ msgstr ""
+#~ "Nous sommes une équipe de chercheurs "
+#~ "et de spécialistes tunisiens, britanniques "
+#~ "et américains qui étudions ce que "
+#~ "les Tunisiens, comme vous, valorisent "
+#~ "dans la vie. Nous aimerions vous "
+#~ "demander votre avis sur un certain "
+#~ "nombre de sujets différents, et vos "
+#~ "commentaires contribueront à une meilleure "
+#~ "compréhension de ce que les gens "
+#~ "en Tunisie croient et valorisent. Vos"
+#~ " réponses seront traitées de manière "
+#~ "strictement confidentielle."
+
+#~ msgid ""
+#~ "If you agree to participate in the"
+#~ " study, you will be invited to "
+#~ "take part in several activities that "
+#~ "will all be carried out online."
+#~ msgstr ""
+#~ "Si vous acceptez de participer à "
+#~ "l'enquête, vous serez invité à prendre"
+#~ " part à plusieurs activités qui "
+#~ "seront toutes réalisées en ligne."
+
+#~ msgid "We expect that you will spend "
+#~ msgstr "Nous prévoyons que vous ne prendrez"
+
+#~ msgid "in total no more than 1 hour"
+#~ msgstr "pas plus qu’une une heure"
+
+#~ msgid " to take part in our study."
+#~ msgstr "pour participer à notre enquête."
+
+#~ msgid "The first part of the study today should not take more than 30 min."
+#~ msgstr ""
+#~ "La première partie de l'enquête "
+#~ "d'aujourd'hui ne devrait pas prendre "
+#~ "plus de 30 minutes"
+
+#~ msgid ""
+#~ "If you complete all elements in "
+#~ "the study we will enter your name"
+#~ " in a raffle to win a free, "
+#~ "one year subscription to Netflix."
+#~ msgstr ""
+#~ "Si vous remplissez tous les éléments "
+#~ "de l'enquête, nous entrerons votre nom"
+#~ " dans un tirage au sort pour "
+#~ "gagner un abonnement gratuit d'un an "
+#~ "à Netflix."
+
+#~ msgid ""
+#~ "Your participation in this research is"
+#~ " voluntary. If you decide to "
+#~ "participate, you still have the right"
+#~ " to withdraw at any point during "
+#~ "the study for any reason. Your "
+#~ "information is anonymous and confidential."
+#~ msgstr ""
+#~ "Si vous décidez de participer, votre "
+#~ "participation à cette enquête est "
+#~ "volontaire. Vous avez toujours le droit"
+#~ " de vous retirer à tout moment "
+#~ "de l'enquête pour quelque raison que "
+#~ "ce soit. Vos informations sont anonymes"
+#~ " et confidentielles."
+
+#~ msgid "If you would like to discuss this research, please e-mail "
+#~ msgstr "Si vous souhaitez discuter cette enquête, veuillez envoyer un email à "
+
+#~ msgid ""
+#~ "I have read and I understand the"
+#~ " information above. I understand that "
+#~ "my participation is voluntary and that"
+#~ " I am free to withdraw at any"
+#~ " time, without giving a reason. I "
+#~ "understand that any information I "
+#~ "provide during this study is anonymous"
+#~ " and confidential and will be used"
+#~ " for research purposes only. I "
+#~ "understand that my contact information "
+#~ "will be used solely for communication"
+#~ " about this study and to enter "
+#~ "me into a raffle to win a "
+#~ "free subscription to Netflix."
+#~ msgstr ""
+#~ "J'ai lu et compris les informations "
+#~ "ci-dessus. Je comprends que ma "
+#~ "participation est volontaire et que je"
+#~ " suis libre de me retirer à "
+#~ "tout moment, sans donner de raison. "
+#~ "Je comprends que les informations que"
+#~ " je fournis au cours de cette "
+#~ "enquête sont anonymes et confidentielles "
+#~ "et ne seront utilisées qu'à des "
+#~ "fins de recherche. Je comprends que "
+#~ "mes coordonnées ne seront utilisées que"
+#~ " pour la communication sur cette "
+#~ "enquête et pour m'inscrire à un "
+#~ "tirage au sort permettant de gagner "
+#~ "un abonnement gratuit à Netflix."
+
+#~ msgid ""
+#~ "If you are not satisfied with the"
+#~ " way this survey was conducted, or"
+#~ " if you have any questions, "
+#~ "complaints or general questions about "
+#~ "the research or your rights as a"
+#~ " participant, please contact the Ethics "
+#~ "Committee of Middlesex University to "
+#~ "speak to someone independent of the "
+#~ "research team, on the phone at +44"
+#~ " 020 8411 6060."
+#~ msgstr ""
+#~ "Si vous n’êtes pas satisfait(e) de "
+#~ "la manière dont a été conduite "
+#~ "cette enquête, ou si vous avez la"
+#~ " moindre question, critique ou remarque "
+#~ "au sujet de cette étude ou de "
+#~ "vos droits en tant que participant(e),"
+#~ " merci de bien vouloir contacter le"
+#~ " Comité d’éthique de l’Université de "
+#~ "Middlesex afin de partager vos "
+#~ "commentaires avec un expert indépendant "
+#~ "de l’équipe de recherche, au numéro "
+#~ "suivant : +44 020 8411 6060."
+
+#~ msgid ""
+#~ "If you have any questions, concerns "
+#~ "or complaints about this survey, please"
+#~ " contact the survey coordinator at "
+#~ msgstr ""
+#~ "En cas de questions, inquiétudes ou "
+#~ "critiques relatives à cette étude, merci"
+#~ " de contacter le responsable de cette"
+#~ " étude via "

@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block app_content %}
+Breakdown of User Assignment Totals
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Block Number</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Education</th>
+            <th scope="col">Coastal</th>
+            <th scope="col">Registered</th>
+            <th scope="col">Treatment 1 Total</th>
+            <th scope="col">Treatment 2 Total</th>
+            <th scope="col">Treatment 3 Total</th>
+            <th scope="col">Treatment 4 Total</th>
+            <th scope="col">Control Total</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for row in rows %}
+    <tr>
+        <th scope="row">{{ row.number }}</th>
+        <td>{% if row.gender %}Female{% else %}Male{% endif %}</td>
+        <td>{% if  row.ed %}Yes {% else %}No{% endif %} </td>
+        <td>{% if row.coastal %}Yes{% else %}No{% endif %}</td>
+        <td>{% if row.reg %}Yes{% else %}No{% endif %}</td>
+        <td>{{ row.count0 }}</td>
+        <td>{{ row.count1 }}</td>
+        <td>{{ row.count2 }}</td>
+        <td>{{ row.count3 }}</td>
+        <td>{{ row.count4 }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+        <th scope="row">Subtotal</th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>{{ totalcount0 }}</td>
+        <td>{{ totalcount1 }}</td>
+        <td>{{ totalcount2 }}</td>
+        <td>{{ totalcount3 }}</td>
+        <td>{{ totalcount4 }}</td>
+     <tr>
+        <th scope="row">Total</th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>{{ totalusercount }} </td>
+    </tr>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<a href="{{ url_for('doexport') }}">Download Data</a>
+<form action="" method="post" novalidate>
+    {{ form.hidden_tag() }}
+{{ wtf.quick_form(form) }}
+<input type="submit" value="Update" class="but btn-primary">
+</form>
+{% endblock %}

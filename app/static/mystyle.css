@@ -1,0 +1,7 @@
+body {
+    font-size: 20px;
+}
+
+input#consent_given {
+    transform: scale(2);
+}
