@@ -1,7 +1,7 @@
 {% extends 'bootstrap/base.html' %}
 
 {% block title %}
-Is it Iserschulz Baby Time?
+    {% if title %}{{ title }} - Is it Iserschulz Baby Time?{% else %}Is it Iserschulz Baby Time?{% endif %}
 {% endblock %}
 
 {% block head %} 
