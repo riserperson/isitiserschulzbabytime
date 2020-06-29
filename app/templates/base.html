@@ -1,27 +1,14 @@
 {% extends 'bootstrap/base.html' %}
 
 {% block title %}
-Is it baby time?
+Is it Iserschulz Baby Time?
+{% endblock %}
+{% block styles %}
+{{ super() }}<link rel="stylesheet" type="text/css" href="static/css/style.css">
 {% endblock %}
 
-{% block head %} 
-
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
-{% endblock %}
 
 {% block content %}
-    <div class="container">
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-            <ul>
-            {% for message in messages %}
-            <li>{{ message }}</li>
-            {% endfor %}
-            </ul>
-        {% endif %}
-        {% endwith %}
-
-    {% block app_content %}
-    {% endblock %}
-    </div>
+      {% block app_content %}
+      {% endblock %}
 {% endblock %}
