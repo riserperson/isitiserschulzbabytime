@@ -1,3 +1,3 @@
-from app import app, db, cli
+from app import app 
 
 
