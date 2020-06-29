@@ -1,5 +1,5 @@
 from flask import g, render_template, redirect, request, session, url_for, flash
-from app import app, db
+from app import app
 import requests
 
 @app.route('/', methods=['GET', 'POST'])
